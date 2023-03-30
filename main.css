@@ -1,0 +1,119 @@
+html {
+    display: table;
+    margin: auto;
+    background-color:ivory;
+}
+
+header h1{
+    padding-left: 15px;
+}
+
+header{
+    text-shadow: 1px 1px gray;
+}
+
+main{
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 10px 20px;
+    width: 900px;
+    background-color:white;
+}
+
+#center{
+    text-align: center;
+}
+
+#signature{
+    font-family: "Brush Script MT", cursive;
+    font-size: 125%;
+}
+
+/* Classes */
+
+.mainindex{
+    text-align: left;
+    float: right;
+    width: 80px;
+    background-color:linen;
+    border: solid 1px black;
+    position: fixed;
+    right: 35px;
+    padding-left: 15px;
+}
+
+.secondindex{
+    text-align: left;
+    float: right;
+    width: 80px;
+    background-color:linen;
+    border: solid 1px black;
+    position: fixed;
+    left: 35px;
+    bottom: 120px;
+    padding-left: 15px;
+}
+
+.mainindex h2, .secondindex h2{
+    text-decoration: underline;
+}
+
+.mainindex ul, .secondindex ul{
+    padding-left: 10px;
+}
+
+.mainimage{
+    float: left; 
+    width: 300px;
+    height: 250px;
+    margin-right: 25px;
+}
+
+.history{
+    clear: left;
+    padding: 20px 0px 0px 20px;
+}
+
+.history h4{
+    padding-left:15px;
+}
+
+.leftproduct{
+    text-align: left;
+    margin: 0px 0px 200px 0px;
+}
+
+.rightproduct{
+    text-align: right;
+    margin: 10px;
+    margin: 0px 0px 200px 0px;
+}
+
+.leftproduct img{
+    float:left;
+    clear:all;
+    width: 250px;
+    height: 300px;
+    margin: 10px 20px 30px 0px;
+}
+
+.rightproduct img{
+    float:right;
+    clear:all;
+    width: 250px;
+    height: 300px;
+    margin: 10px 0px 30px 20px;
+}
+
+.saleinfo{
+    column-count: 2;
+    text-align: center;
+    column-rule: 2px solid black;
+    column-gap: 50px;
+}
+
+.copyright{
+    font-size: 125%;
+    font-weight: bold;
+}
